@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+
+
+body{
+    background-color: rgb(249, 92, 92);
+}
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+.header {
+    border-top: 3px rgb(139, 23, 23);
+
+    padding-top: 20px;
+  display: grid;
+  place-items: center;
+  margin: 1.5rem 0;
+
+ 
+  margin: auto;
+  width: 70%;
+
+}
+.box {
+    background-color: rgb(249, 92, 92);
+    margin: 0 auto;
+ width: 70%;
+  display: grid;
+  place-items: center;
+  gap: 1.5rem;
+  padding: 1.2rem;
+
+  border-radius: 10px;
+
+
+}
+.row{
+    display: flex;
+    gap: 1.5rem;
+    box-shadow: 10px 8px 0.1;
+
+}
+.btn{
+    padding: 50px;
+    border-radius: 20px;
+
+    background-color: rgb(253, 254, 254);
+    text-align: center;
+font-size: 1rem;
+font-weight: 500px;
+box-shadow: inset 0px 1 px 4px 0 rgb(0,0,0,0.5);
+
+}
+.btn:hover{
+    cursor: pointer;
+
+}
+.resul {
+    text-align: center;
+}
+.reset{
+    margin: 10px 0;
+    text-align: center;
+}
+#reset{
+    cursor: pointer;
+    color: rgb(102, 54, 54);
+    background-color: aliceblue;
+    border-radius: 01.5rem;
+    padding: 5px 100px ;
+font-size: 2.1rem;
+margin: 7px 0;
+}
+#reset:hover{
+    background-color: rgb(172, 158, 158);
+    color: rgb(16, 165, 138);
+}
